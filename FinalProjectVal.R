@@ -45,4 +45,8 @@ my_table = cbind.data.frame(as.character(row.names(my_table)),my_table)
 colnames(my_table)[1] = 'activity.subject'
 my_table = separate(my_table, activity.subject,
                     c('activity','subject'), '\\.')
+# updating the row names and column names
+old.names = names(my_table)
+new.names = sapply(old.names, paste0, '_mean')
+colnames(my_table)[-(1:2)] = new.names[-(1:2)]
 row.names(my_table) = NULL
