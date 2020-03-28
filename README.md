@@ -6,3 +6,5 @@ Only values of the mean and standard deviation from the preprocessed data offere
 
 ## Connection between the files
 To run the script, the data files from the UCI repository should be saved in a folder called 'Data' which is in the same folder as the script. This is to save the user from updating the file path every time. Alternately, the working directory could be manually updated to the foler containing the data folder. An example of the resultant path to the data would be './Data/UCI HAR Dataset/train/y_train.txt'.
+
+The source of the data is from Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine. International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012
