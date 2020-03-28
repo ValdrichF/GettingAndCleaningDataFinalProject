@@ -50,3 +50,4 @@ old.names = names(my_table)
 new.names = sapply(old.names, paste0, '_mean')
 colnames(my_table)[-(1:2)] = new.names[-(1:2)]
 row.names(my_table) = NULL
+write.csv(my_table, file = 'AvgSensorReadingByActivityAndSubject.csv')
