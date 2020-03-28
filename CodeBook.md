@@ -3,30 +3,29 @@ The variables from the the Human activity recognision using smartphone dataset V
 These signals were used to estimate variables of the feature vector for each pattern:  
 '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
 
-tBodyAcc-XYZ
-
-tGravityAcc-XYZ
-tBodyAccJerk-XYZ
-tBodyGyro-XYZ
-tBodyGyroJerk-XYZ
-tBodyAccMag
-tGravityAccMag
-tBodyAccJerkMag
-tBodyGyroMag
-tBodyGyroJerkMag
-fBodyAcc-XYZ
-fBodyAccJerk-XYZ
-fBodyGyro-XYZ
-fBodyAccMag
-fBodyAccJerkMag
-fBodyGyroMag
-fBodyGyroJerkMag
+tBodyAcc-XYZ; 
+tGravityAcc-XYZ; 
+tBodyAccJerk-XYZ; 
+tBodyGyro-XYZ; 
+tBodyGyroJerk-XYZ; 
+tBodyAccMag; 
+tGravityAccMag; 
+tBodyAccJerkMag; 
+tBodyGyroMag; 
+tBodyGyroJerkMag; 
+fBodyAcc-XYZ; 
+fBodyAccJerk-XYZ; 
+fBodyGyro-XYZ; 
+fBodyAccMag; 
+fBodyAccJerkMag; 
+fBodyGyroMag; 
+fBodyGyroJerkMag; 
 
 The set of variables that were estimated from these signals are: 
 
-mean(): Mean value
-std(): Standard deviation
-meanFreq(): Weighted average of the frequency components to obtain a mean frequency
+mean(): Mean value; 
+std(): Standard deviation; 
+meanFreq(): Weighted average of the frequency components to obtain a mean frequency; 
 
 The mean value of these 'preprocessed' variables is calculated using the attached script to generate the output file 'AvgSensorReadingByActivityAndSubject.csv'. The mean is also separated by the activity that the participant was performing and also for each participant. The activity being performed is described in the variable 'activity'. Further, the participants have been ecoded into number, from 1 to 30, in the variable 'subject'
 
