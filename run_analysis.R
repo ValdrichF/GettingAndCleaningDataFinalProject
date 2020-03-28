@@ -40,7 +40,7 @@ data_mean_std  = rbind(test_mean_std,train_mean_std)
 ## Step 5.
 split.data = split(data_mean_std[,-(1:2)],
                    list(data_mean_std$activity, data_mean_std$subject)) 
-my_table = t(sapply(split.data,colSums))
+my_table = t(sapply(split.data,colMeans))
 my_table = cbind.data.frame(as.character(row.names(my_table)),my_table)
 colnames(my_table)[1] = 'activity.subject'
 my_table = separate(my_table, activity.subject,
